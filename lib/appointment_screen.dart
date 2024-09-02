@@ -38,6 +38,7 @@ class AppointmentScreen extends StatelessWidget {
                 ],
               ),
             ),
+
             Padding(
               padding: EdgeInsets.symmetric(vertical: 10),
               child: Column(
@@ -68,6 +69,7 @@ class AppointmentScreen extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: 15),
+                  
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
